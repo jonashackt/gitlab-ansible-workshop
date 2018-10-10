@@ -1,5 +1,5 @@
 # Table of contents
 
 * [Introduction](README.md)
-* [Prerequisites](prerequisites.md)
+* [Step 1: Prerequisites](prerequisites.md)
 
