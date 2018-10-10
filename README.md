@@ -6,5 +6,3 @@ This workshop will explain how to use the benefits of [Infrastructure-as-Code](h
  This workshop assumes that you have a workstation with 12+ GB of RAM and local admin rights.
 {% endhint %}
 
-
-
