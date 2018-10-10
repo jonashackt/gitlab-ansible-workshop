@@ -43,7 +43,7 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
 
 Now search the Windows Store for Ubuntu. Install it with __GET__. Press __LAUNCH__ then:
 
-![Installing_Ubuntu_on_Control_Machine.png](https://github.com/jonashackt/ansible-linux-windows-workshop/blob/master/Installing_Ubuntu_on_Control_Machine.png)
+![Installing_Ubuntu_on_Control_Machine.png](https://raw.githubusercontent.com/jonashackt/ansible-linux-windows-workshop/master/Installing_Ubuntu_on_Control_Machine.png)
 
 Now choose username and password.
 
@@ -63,7 +63,7 @@ sudo apt-get update
 sudo apt-get install ansible
 ```
 
-![Installing_Ansible_on_Control_Machine.png](https://github.com/jonashackt/ansible-linux-windows-workshop/blob/master/Installing_Ansible_on_Control_Machine.png)
+![Installing_Ansible_on_Control_Machine.png](https://raw.githubusercontent.com/jonashackt/ansible-linux-windows-workshop/master/Installing_Ansible_on_Control_Machine.png)
 
 
 
