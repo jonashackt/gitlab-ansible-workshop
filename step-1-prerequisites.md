@@ -57,7 +57,7 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
 
 Now search the Windows Store for Ubuntu. Install it with **GET**. Press **LAUNCH** then:
 
-![Installing\_Ubuntu\_on\_Control\_Machine.png](.gitbook/assets/installing_ubuntu_on_control_machine.png)
+![Installing Ubuntu on Windows](.gitbook/assets/installing_ubuntu_on_control_machine.png)
 
 Now choose username and password.
 
@@ -80,7 +80,7 @@ sudo apt-get install ansible
 $ ansible --version
 ```
 
-![Installing\_Ansible\_on\_Control\_Machine.png](.gitbook/assets/installing_ansible_on_control_machine.png)
+![Installing Ansible as Control Machine on WLS](.gitbook/assets/installing_ansible_on_control_machine.png)
 
 {% hint style="info" %}
 Don´t get confused: On Windows the tools Vagrant & VirtualBox must be used from a PowerShell, Ansible will be used from the Windows Linux Subsystem \(WSL\).
