@@ -76,13 +76,13 @@ virtualbox.customize ["modifyvm", :id, "--natdnshostresolver1", "on"]
 
 Now our `Vagrantfile` should be ready for our fully features GitLab. We only need to use the vagrand-dns plugin to do it´s DNS magic:
 
-```
+```text
 vagrant dns --install
 ```
 
-Let´s check with `scutil --dns` (on a Mac), if the resolver is part of your DNS configuration:
+Let´s check with `scutil --dns` \(on a Mac\), if the resolver is part of your DNS configuration:
 
-```
+```text
 ...
 
 resolver #10
@@ -99,8 +99,9 @@ If that looks good, we´re ready to fire up the Vagrant Box with `vagrant up`.
 
 After the successful startup, we should try to reach our Vagrant Box using our defined domain: `dscacheutil -q host -a name gitlab.jonashackt.io` This should look like the following:
 
-```
+```text
 $ dscacheutil -q host -a name gitlab.jonashackt.io
   name: gitlab.jonashackt.io
   ip_address: 172.16.2.15
 ```
+
